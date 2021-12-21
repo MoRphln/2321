@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <title>232양한결</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <style>
+            * {
+              font-family: 'Montserrat', sans-serif;
+              text-decoration:none;
+              color:dimgray;
+            }
+            @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+            .snip1226 {
+              font-family: 'Raleway', Arial, sans-serif;
+              text-align: center;
+              text-transform: uppercase;
+              font-weight: 500;
+              font-weight: bold;
+            }
+            .snip1226 * {
+              box-sizing: border-box;
+              -webkit-transition: all 0.35s ease;
+              transition: all 0.35s ease;
+            }
+            .snip1226 li {
+              display: inline-block;
+              list-style: outside none none;
+              margin: 0 1.5em;
+              overflow: hidden;
+            }
+            .snip1226 a {
+              padding: 0.3em 0;
+              color: rgba(255, 255, 255, 0.5);
+              position: relative;
+              display: inline-block;
+              letter-spacing: 1px;
+              margin: 0;
+              text-decoration: none;
+            }
+            .snip1226 a:before,
+            .snip1226 a:after {
+              position: absolute;
+              -webkit-transition: all 0.35s ease;
+              transition: all 0.35s ease;
+            }
+            .snip1226 a:before {
+              bottom: 100%;
+              display: block;
+              height: 3px;
+              width: 100%;
+              content: "";
+              background-color: #e67e22;
+            }
+            .snip1226 a:after {
+              padding: 0.3em 0;
+              position: absolute;
+              bottom: 100%;
+              left: 0;
+              content: attr(data-hover);
+              color: white;
+              white-space: nowrap;
+            }
+            .snip1226 li:hover a,
+            .snip1226 .current a {
+              transform: translateY(100%);
+            }
+            /* Demo purposes only */
+            body {
+              background-color: #323232;
+              margin: 0;
+            }
+            .p {
+              display:grid;
+              grid-template-columns:80px 1fr ;
+              border-bottom:1px solid dimgray;
+              padding:5px;
+              background-color: #282828;
+            }
+            .home {
+              display:block;
+              font-size:60px;
+              text-align:center;
+              margin-right:80px;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+            .orca {
+              float:left;
+              padding:20px;
+            }
+            .all {
+              display:block;
+              grid-template-rows:1fr 0.5fr;
+              border-bottom:1px solid gray;
+            }
+            ul {
+              padding: 0;
+            }
+            .E {
+              word-spacing: 4px;
+            }
+            .aa {
+              display:grid;
+              grid-template-columns:1fr 1fr 1fr ;
+              padding:20px;
+            }
+            @import url(https://fonts.googleapis.com/css?family=Raleway);
+            .snip1584 {
+              font-family: 'Raleway', sans-serif;
+              position: relative;
+              display: inline-block;
+              overflow: hidden;
+              margin: 10px;
+              width: auto;
+              color: #ffffff;
+              font-size: 16px;
+              text-align: left;
+            }
+            .snip1584 * {
+              -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+              -webkit-transition: all 0.25s ease;
+              transition: all 0.25s ease;
+            }
+            .snip1584:before {
+              position: absolute;
+              top: 10px;
+              bottom: 10px;
+              left: 10px;
+              right: 10px;
+              top: 100%;
+              content: '';
+              background-color: rgba(51, 51, 51, 0.9);
+              -webkit-transition: all 0.25s ease;
+              transition: all 0.25s ease;
+              -webkit-transition-delay: 0.25s;
+              transition-delay: 0.25s;
+            }
+            .snip1584 img {
+              vertical-align: top;
+              max-width: 100%;
+              backface-visibility: hidden;
+            }
+            .snip1584 figcaption {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              z-index: 1;
+              align-items: center;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            }
+            .snip1584 h3,
+            .snip1584 h5 {
+              margin: 0;
+              opacity: 0;
+              letter-spacing: 1px;
+            }
+            .snip1584 h3 {
+              -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+              text-transform: uppercase;
+              font-weight: 600;
+              -webkit-transition-delay: 0.05s;
+              transition-delay: 0.05s;
+              margin-bottom: 5px;
+            }
+            .snip1584 h5 {
+              font-weight: normal;
+              background-color: #ae895d;
+              padding: 3px 10px;
+              -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+              -webkit-transition-delay: 0s;
+              transition-delay: 0s;
+            }
+            .snip1584 a {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              z-index: 1;
+            }
+            .snip1584:hover:before,
+            .snip1584.hover:before {
+              top: 10px;
+              -webkit-transition-delay: 0s;
+              transition-delay: 0s;
+            }
+            .snip1584:hover h3,
+            .snip1584.hover h3,
+            .snip1584:hover h5,
+            .snip1584.hover h5 {
+              -webkit-transform: translateY(0);
+              transform: translateY(0);
+              opacity: 1;
+            }
+            .snip1584:hover h3,
+            .snip1584.hover h3 {
+              -webkit-transition-delay: 0.3s;
+              transition-delay: 0.3s;
+            }
+            .snip1584:hover h5,
+            .snip1584.hover h5 {
+              -webkit-transition-delay: 0.2s;
+              transition-delay: 0.2s;
+            }
+            .aaa {
+              display: grid;
+              grid-template-columns:1fr 1fr 1fr ;
+              margin-top: 30px;;
+            }
+            figure {
+              border:2px solid ghostwhite;
+            }
+        </style>
+        <script>
+        /* Demo purposes only */
+          var snippet = [].slice.call(document.querySelectorAll('.hover'));
+          if (snippet.length) {
+          snippet.forEach(function (snippet) {
+            snippet.addEventListener('mouseout', function (event) {
+              if (event.target.parentNode.tagName === 'figure') {
+                event.target.parentNode.classList.remove('hover')
+              } else {
+                event.target.parentNode.classList.remove('hover')
+              }
+            });
+          });
+          }
+        </script>
+      </head>
+      <body>
+        <div class="all">
+          <div class="p">
+            <a class="orca" href="home.html"><img src="o.PNG" width="80px"></a>
+            <div class="snip1226">
+              <div class="home">
+                <a class="current" href="contact.html" data-hover="Contact">Contact</a>
+              </div>
+            </div>
+          </div>
+          <ul class="snip1226">
+            <li><a href="home.html" data-hover="Home">Home</a></li>
+            <li><a href="skill.html" data-hover="Skill">Skill</a></li>
+            <li><a href="project.html" data-hover="Project">Project</a></li>
+          </ul>
+          </div>
+          <div class="aaa">
+            <figure class="snip1584"><img src="inss.jpg" width="560px;"alt="sample87"/>
+            <figcaption>
+              <h3 style="color:ghostwhite;">Instagram</h3>
+              <h5 style="color:ghostwhite;">@yang_hangyeol</h5>
+            </figcaption><a href="#"></a>
+            </figure>
+            <figure class="snip1584 hover"><img src="ip.jpg" width="560px;"alt="sample119"/>
+            <figcaption>
+              <h3 style="color:ghostwhite;">number</h3>
+              <h5 style="color:ghostwhite;">010-8879-7699</h5>
+            </figcaption>
+            </figure>
+            <figure class="snip1584"><img src="e.jpg" width="560px;"alt="sample120"/>
+            <figcaption>
+              <h3 style="color:ghostwhite;">E-mail</h3>
+              <h5 style="color:ghostwhite;">hangyeol1453@gmail.com</h5>
+            </figcaption>
+            </figure>
+          </div>
+        </body>
+      </html>
